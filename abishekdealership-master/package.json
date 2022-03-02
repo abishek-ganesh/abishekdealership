@@ -1,0 +1,41 @@
+{
+  "name": "cbds-devup-challenge",
+  "version": "0.1.0",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^3.3.7",
+    "chart.js": "^2.7.2",
+    "express": "^4.16.2",
+    "lodash": "^4.17.5",
+    "marked": "^0.7.0",
+    "react": "^16.2.0",
+    "react-bootstrap": "0.32.4",
+    "react-bootstrap-table": "4.3.1",
+    "react-chartjs-2": "^2.7.0",
+    "react-dom": "^16.2.0",
+    "react-markdown-editor": "^0.6.2",
+    "react-scripts": "1.1.1",
+    "underscore": "^1.8.3",
+    "webpack": "^3.8.1",
+    "webpack-dev-middleware": "^1.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "compile-dev": "webpack --watch"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.42",
+    "@babel/preset-env": "^7.0.0-beta.42",
+    "babel-plugin-lodash": "^3.3.2",
+    "jquery": "^3.4.0",
+    "javascript-state-machine": "^3.1.0"
+  }
+}
